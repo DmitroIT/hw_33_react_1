@@ -22,7 +22,7 @@ export function Sidebar() {
             {
                 sidebarList.map((item) => {
                     return (
-                        <li>{item.name}</li>
+                        <li><a href="#!">{item.name}</a> </li>
                     )
                 })
             }
